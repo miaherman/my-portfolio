@@ -15,9 +15,7 @@ const Resume = () => {
         <CoreWrapper>
             <StyledResume>
                 <p>
-                    fjopsdjf
-                    gskngklsn
-                    gndsklngs
+                    Resume goes here!
                 </p>
                 <Footer/>
             </StyledResume>
