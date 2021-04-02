@@ -23,8 +23,8 @@ const Startpage = () => {
                 <div>
                     <h1>Hi! I'm Mia Herman</h1>
                       <text>Web development.
-                        Graphic Design
-                        Illustrator
+                        Graphic Design.
+                        Illustrator.
                         Jack of all trades.</text>
                 </div>
                 <img src={myLogo}

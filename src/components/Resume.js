@@ -10,13 +10,11 @@ const StyledResume = styled.div`
 
 `;
 
+
 const Resume = () => {
     return (
         <CoreWrapper>
             <StyledResume>
-                <p>
-                    Resume goes here!
-                </p>
                 <Footer/>
             </StyledResume>
         </CoreWrapper>
