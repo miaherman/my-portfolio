@@ -1,24 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 import Footer from './Footer.js';
 import CoreWrapper from '../CSS/style';
 
-const StyledResume = styled.div`
+class Resume extends Component {
+
+  render () {
+    return (
+        <CoreWrapper>
+            <ResumeContainer>
+                <Footer/>
+            </ResumeContainer>
+        </CoreWrapper>
+        );
+    };
+  }
+
+  const ResumeContainer = styled.div`
     position: relative;
     height: 100vh;
     width: 100%;
-
-`;
-
-
-const Resume = () => {
-    return (
-        <CoreWrapper>
-            <StyledResume>
-                <Footer/>
-            </StyledResume>
-        </CoreWrapper>
-    );
-};
+  `;
 
 export default Resume;

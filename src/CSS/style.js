@@ -10,6 +10,7 @@ export const CoreWrapper = styled.div`
     height: 100vh;
     background-repeat: repeat;
     background-size: 100%;
+
 `;
 
 export default CoreWrapper;
