@@ -8,6 +8,7 @@ export const CoreWrapper = styled.div`
     align-items: center;
     background-image: url(${backgroundPattern});
     height: 100vh;
+    width: 100%;
     background-repeat: repeat;
     background-size: 100%;
 

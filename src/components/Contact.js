@@ -13,8 +13,11 @@ const StyledContactInfo = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
     img {
-        width: 40rem;
+        width: 100%;
+        height: auto;
+        max-width: 40rem;
     }
 
     @media (max-width: 768px) {
@@ -36,14 +39,16 @@ const StyledProfile = styled.div`
 
     img {
         position: relative;
-        height: 20rem;
+        width: 100%;
+        height: auto;
+        max-width: 20rem;
     }
 
     @media (max-width: 768px) {
         background-color: #fcb97d;
         
         img {
-            height: 10rem;
+            
             padding: 2rem;
         }
     }
@@ -53,6 +58,7 @@ const StyledText = styled.div `
     position: absolute;
     text-align: center;
     font-size: 2rem;
+    padding: 0.5rem;
 
     a {
         color: black;
@@ -66,8 +72,8 @@ const StyledText = styled.div `
             font-size: 2rem;
         }
         a {
-            font-size: 1rem;
-            padding: 1rem;
+            font-size: 1.3rem;
+            
         }
     }
 `;

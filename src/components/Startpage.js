@@ -2,16 +2,28 @@ import React from 'react';
 import myLogo from '../images/logo.png'
 import styled from 'styled-components';
 
-const AboutmeDiv = styled.div`
+const AboutMeDivContainer = styled.div`
     display: flex;
     flex-direction: row;
-    text-align: left;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
     background-color: rgb(169, 175, 255);
     height: 100vh;
-    `;
+    
+    img {
+        padding-right: 2rem;
+    }
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 4rem;
+        }
+    }
+`;
+
+const AboutMeText = styled.div`
+    padding-left: 2rem;
+`;
 
 
 
@@ -19,17 +31,17 @@ const Startpage = () => {
 
     return (
         <>
-            <AboutmeDiv>
-                <div>
+            <AboutMeDivContainer>
+                <AboutMeText>
                     <h1>Hi! I'm Mia Herman</h1>
                       <text>Web development.
                         Graphic Design.
-                        Illustrator.
-                        Jack of all trades.</text>
-                </div>
+                        Illustration.
+                        </text>
+                </AboutMeText>
                 <img src={myLogo}
                     alt="MiaHerman"/>
-                </AboutmeDiv> 
+            </AboutMeDivContainer> 
         </>
                 
     );
