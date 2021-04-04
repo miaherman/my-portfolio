@@ -2,6 +2,7 @@ import React from 'react';
 import myLogo from '../images/logo.png'
 import styled from 'styled-components';
 
+
 const AboutMeDivContainer = styled.div`
     display: flex;
     flex-direction: row;
@@ -30,7 +31,8 @@ const AboutMeText = styled.div`
 const Startpage = () => {
 
     return (
-        <>
+        
+        <div className="section">
             <AboutMeDivContainer>
                 <AboutMeText>
                     <h1>Hi! I'm Mia Herman</h1>
@@ -42,7 +44,7 @@ const Startpage = () => {
                 <img src={myLogo}
                     alt="MiaHerman"/>
             </AboutMeDivContainer> 
-        </>
+        </div>
                 
     );
 };

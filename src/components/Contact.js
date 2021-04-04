@@ -6,6 +6,7 @@ import CoreWrapper from '../CSS/style.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Section } from 'react-fullpage';
 
 
 
@@ -84,7 +85,8 @@ const StyledText = styled.div `
 
 const Contact = () => {
     return (
-        <CoreWrapper>
+        <Section>
+         <CoreWrapper>
             <StyledContactInfo>
                 <StyledText>
                      <h2>CONTACT</h2>
@@ -104,7 +106,8 @@ const Contact = () => {
                   <img src={profilePic} alt="green-blob"/>
             </StyledProfile>
 
-      </CoreWrapper>
+         </CoreWrapper>
+      </Section>
     );
 };
 
