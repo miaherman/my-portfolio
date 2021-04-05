@@ -8,7 +8,7 @@ const AboutMeDivContainer = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(169, 175, 255);
+    background-color: #A9AFFF;
     height: 100vh;
     
     img {
