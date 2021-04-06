@@ -5,25 +5,25 @@ import Vaderapp from '../portfolio/Vaderapp.png';
 
 const MyPortfolioImages = [
         {   
+            title: 'webshop',
             image: Printyprint,
-            title: 'Webshop - Demo',
-            url: 'https://printyprint-webshop.netlify.app/',
+            demo: 'https://printyprint-webshop.netlify.app/',
             git: 'https://github.com/miaherman/mini-projekt-webshop',
         },
         {
+            title: 'weatherapp',
             image: Vaderapp,
-            title: "Weather App - Demo",
-            url:'https://jmlweather.netlify.app/',
+            demo:'https://jmlweather.netlify.app/',
         },
         {
+            title: 'gameapp',
             image: Ballaur,
-            title: 'Balla:Ur! - Demo',
-            url: 'https://ballaur-1.netlify.app/',
+            demo: 'https://ballaur-1.netlify.app/',
         },
         {
+            title: 'calendar',
             image: Kalender,
-            title: 'Calendar - Demo',
-            url: 'https://johnrybo.github.io/Kalender/',
+            demo: 'https://jml-calendar.netlify.app/',
         },
     ];
 

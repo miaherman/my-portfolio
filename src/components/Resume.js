@@ -36,20 +36,28 @@ class Resume extends Component {
                     <p><b>Diploma, Project Management</b></p>
                     <p>Martin College, Australia</p>
                     &nbsp;
-                    <h3>SOFTWARE & </h3>
-                    <h3>TECHNICAL SKILLS</h3>
+                    <h3>WORK</h3>
+                    <p>Clandestino Festival 2020 - ongoing</p>
+                    <i>Producer</i>
+                    &nbsp;
+                    <p>KEKS 2018 - 2020</p>
+                    <i>Business Developer</i>
+                    &nbsp;
+                    <p>Gothenburg City 2014 - 2018</p>
+                    <i>Youth/NGO Consultant</i>
+                  </ResumeInfo>
+                  <ResumeInfo>
+                  <h3>TECHNICAL SKILLS</h3>
                     <p>Adobe Photoshop</p>
                     <p>Adobe Illustrator</p>
-                    <p>Visual Studio Code</p>
                     <p>Adobe Premiere</p>
-                    &nbsp;
                     <p>Final Cut Pro</p>
+                    &nbsp;
                     <p>HTML</p>
                     <p>CSS</p>
                     <p>Javascript</p>
                     <p>React.js</p>
-                  </ResumeInfo>
-                  <ResumeInfo>
+                    &nbsp;
                     <h3>LANGUAGES</h3>
                     <p>Swedish</p>
                     <p>English</p>

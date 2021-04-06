@@ -1,15 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
-const Footer = () => {
-    return (
-        <StyledFooter>
-            <text>All content copyright Mia Herman 2020 ©</text>
-        </StyledFooter>
-    );
-};
-
 const StyledFooter = styled.div`
     background-color: rgb(169, 175, 255);
     text-align: center;
@@ -19,5 +10,13 @@ const StyledFooter = styled.div`
     left:0;
     right:0;
 `;
+
+const Footer = () => {
+    return (
+        <StyledFooter>
+            <p>All content copyright Mia Herman 2020 ©</p>
+        </StyledFooter>
+    );
+};
 
 export default Footer;
