@@ -16,6 +16,7 @@ const ResumeContainer = styled.div`
     flex-direction: column;
     background-color: white;
     text-align: center;  
+    overflow: auto;
     padding: 2%;
 `;
 class Resume extends Component {

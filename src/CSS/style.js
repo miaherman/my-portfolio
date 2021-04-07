@@ -13,6 +13,11 @@ export const CoreWrapper = styled.div`
     background-color: white;
     background-size: 100%;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+
+    }
+
 `;
 
 export default CoreWrapper;

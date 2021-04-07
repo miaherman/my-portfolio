@@ -9,8 +9,7 @@ const PortfolioContainer = styled.div`
   display: flex;
   text-align: center;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center;  
 
   img {
     width: auto;
@@ -21,6 +20,22 @@ const PortfolioContainer = styled.div`
     display: inline-block;
   }
 
+@media (max-width: 1024px) {
+
+        img {
+            max-width: 90%;
+            height: auto;
+        }
+    }
+
+  @media (max-width: 768px) {
+
+        img {
+            max-width: 90%;
+            height: auto;
+        }
+    }
+
 `;
 class Portfolio extends Component {
   render() {
@@ -28,7 +43,7 @@ class Portfolio extends Component {
       return (
         <div key={MyPortfolioImages.title} className="fullpagewrapper">
           <PortfolioContainer>
-            <div className="slide">
+            <div className="slide fp-auto-height-responsive">
                 <img src={MyPortfolioImages.image} alt="work" />
               <div>
               <a href={MyPortfolioImages.demo}>

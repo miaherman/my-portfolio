@@ -1,4 +1,4 @@
-import Ballaur from '../portfolio/Ballaur.png';
+import Ballaur from '../portfolio/Ballaur.gif';
 import Kalender from '../portfolio/Kalender.png';
 import Printyprint from '../portfolio/Printyprint.png';
 import Vaderapp from '../portfolio/Vaderapp.png';

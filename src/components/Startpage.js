@@ -13,11 +13,24 @@ const AboutMeDivContainer = styled.div`
     
     img {
         padding-right: 2rem;
+        width: 100%;
+        height: auto;
+        max-width: 30rem;
     }
     
     @media (max-width: 768px) {
         h1 {
             font-size: 4rem;
+        }
+
+        img {
+            max-width: 40%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 2rem;
         }
     }
 `;

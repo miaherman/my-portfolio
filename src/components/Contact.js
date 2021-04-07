@@ -8,8 +8,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Section } from 'react-fullpage';
 
-
-
 const StyledContactInfo = styled.div`
     display: flex;
     justify-content: center;
@@ -23,13 +21,15 @@ const StyledContactInfo = styled.div`
 
     @media (max-width: 768px) {
         background-color: #c7efcf;
-        height: 100vh;
+        height: 50%;
+        overflow: hidden;
+        padding: 2rem;
+        border-radius: 50%;
 
         img {
             display: none;
         }
     }
-  
 `;
 
 const StyledProfile = styled.div`
@@ -43,15 +43,6 @@ const StyledProfile = styled.div`
         width: 100%;
         height: auto;
         max-width: 20rem;
-    }
-
-    @media (max-width: 768px) {
-        background-color: #fcb97d;
-        
-        img {
-            
-            padding: 2rem;
-        }
     }
 `;
 
@@ -74,14 +65,22 @@ const StyledText = styled.div `
         }
         a {
             font-size: 1.3rem;
-            
+        }
+    }
+
+    @media (max-width: 768px) {
+        position: relative;
+        
+        h2 {
+            font-size: 1.4rem;
+        }
+        a {
+            font-size: 1rem;
         }
     }
 `;
 
-// const onClickEmail = () => {
 
-// }
 
 const Contact = () => {
     return (
