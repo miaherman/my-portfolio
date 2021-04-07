@@ -16,8 +16,20 @@ const ResumeContainer = styled.div`
     flex-direction: column;
     background-color: white;
     text-align: center;  
+    justify-content: space-space-around;
     overflow: auto;
     padding: 2%;
+
+
+    @media (max-width: 768px) {
+      h3 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.6rem;
+      }
+    }
 `;
 class Resume extends Component {
 
@@ -39,13 +51,13 @@ class Resume extends Component {
                     &nbsp;
                     <h3>WORK</h3>
                     <p>Clandestino Festival 2020 - ongoing</p>
-                    <i>Producer</i>
+                    <p><i>Producer</i></p>
                     &nbsp;
                     <p>KEKS 2018 - 2020</p>
-                    <i>Business Developer</i>
+                    <p><i>Business Developer</i></p>
                     &nbsp;
                     <p>Gothenburg City 2014 - 2018</p>
-                    <i>Youth/NGO Consultant</i>
+                    <p><i>Youth/NGO Consultant</i></p>
                   </ResumeInfo>
                   <ResumeInfo>
                   <h3>TECHNICAL SKILLS</h3>

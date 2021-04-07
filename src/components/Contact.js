@@ -13,18 +13,18 @@ const StyledContactInfo = styled.div`
     justify-content: center;
     align-items: center;
 
+    //Grön blob
     img {
-        width: 100%;
         height: auto;
         max-width: 40rem;
     }
 
     @media (max-width: 768px) {
         background-color: #c7efcf;
-        height: 50%;
+        height: 100vh;
+        width: auto;
         overflow: hidden;
         padding: 2rem;
-        border-radius: 50%;
 
         img {
             display: none;
@@ -37,12 +37,17 @@ const StyledProfile = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-width: 15rem;
+
 
     img {
         position: relative;
         width: 100%;
         height: auto;
-        max-width: 20rem;
+    }
+    @media (max-width: 768px){
+        background-color: #fcb97d;
+
     }
 `;
 
@@ -57,16 +62,6 @@ const StyledText = styled.div `
         text-decoration: none;
     }
 
-    @media (max-width: 768px) {
-        position: relative;
-        
-        h2 {
-            font-size: 2rem;
-        }
-        a {
-            font-size: 1.3rem;
-        }
-    }
 
     @media (max-width: 768px) {
         position: relative;
@@ -79,7 +74,6 @@ const StyledText = styled.div `
         }
     }
 `;
-
 
 
 const Contact = () => {

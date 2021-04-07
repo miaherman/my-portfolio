@@ -13,9 +13,8 @@ export const CoreWrapper = styled.div`
     background-color: white;
     background-size: 100%;
 
-    @media (max-width: 768px) {
+    @media (max-width: 280px) {
         flex-direction: column;
-
     }
 
 `;

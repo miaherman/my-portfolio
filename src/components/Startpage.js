@@ -1,5 +1,5 @@
 import React from 'react';
-import myLogo from '../images/logo.png'
+import MyLogo from '../images/logo.png';
 import styled from 'styled-components';
 
 
@@ -40,21 +40,18 @@ const AboutMeText = styled.div`
 `;
 
 
-
 const Startpage = () => {
-
     return (
-        
         <div className="section">
             <AboutMeDivContainer>
                 <AboutMeText>
                     <h1>Hi! I'm Mia Herman</h1>
-                      <text>Web development.
+                      <p>Web development.
                         Graphic Design.
                         Illustration.
-                        </text>
+                        </p>
                 </AboutMeText>
-                <img src={myLogo}
+                <img src={MyLogo}
                     alt="MiaHerman"/>
             </AboutMeDivContainer> 
         </div>
