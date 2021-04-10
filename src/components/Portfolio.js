@@ -9,7 +9,7 @@ const PortfolioContainer = styled.div`
   display: flex;
   text-align: center;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 
   img {
     width: auto;
@@ -20,46 +20,52 @@ const PortfolioContainer = styled.div`
     display: inline-block;
   }
 
-@media (max-width: 1024px) {
+  p {
+    color: white;
+  }
 
-        img {
-            max-width: 90%;
-            height: auto;
-        }
+  @media (max-width: 1024px) {
+    img {
+      max-width: 90%;
+      height: auto;
     }
+  }
 
   @media (max-width: 768px) {
-
-        img {
-            max-width: 90%;
-            height: auto;
-        }
+    img {
+      max-width: 90%;
+      height: auto;
     }
-
+  }
 `;
 class Portfolio extends Component {
+  
   render() {
+    if(MyPortfolioImages.title === "gbgcollage" ) {
+      return (<h1>hello</h1>)
+    }
+
     return MyPortfolioImages.map((MyPortfolioImages) => {
       return (
-        <div key={MyPortfolioImages.title} className="fullpagewrapper">
+        <div key={MyPortfolioImages.id} className="fullpagewrapper">
           <PortfolioContainer>
             <div className="slide fp-auto-height-responsive">
-                <img src={MyPortfolioImages.image} alt="work" />
+              <img src={MyPortfolioImages.image} alt="work" />
               <div>
-              <a href={MyPortfolioImages.demo}>
-                <h3>Demo</h3>
-              </a>
-              <h3>
-                    |
-                  </h3>
-              <a href={MyPortfolioImages.git}>
-                <h3>Github</h3>
-              </a>
+                <a href={MyPortfolioImages.demo}>
+                  <h3>{MyPortfolioImages.title}</h3>
+                </a>
+                <h3>|</h3>
+                <a href={MyPortfolioImages.github}>
+                  <h3>{MyPortfolioImages.work}</h3>
+                </a>
+                <p>{MyPortfolioImages.description}</p>
               </div>
             </div>
           </PortfolioContainer>
         </div>
       );
+      
     });
   }
 }

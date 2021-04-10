@@ -5,7 +5,7 @@ export default function ReactFullpageWrapper(props) {
   return (
     <ReactFullpage
       licenseKey={"xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx"}
-      scrollingSpeed={1000} /* Options here */
+      scrollingSpeed={1000} 
       render={() => {
         return (
           <ReactFullpage.Wrapper>
