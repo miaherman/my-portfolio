@@ -52,6 +52,7 @@ const StyledProfile = styled.div`
     height: 100vh;
     width: 100%;
   }
+
 `;
 
 const StyledText = styled.div`

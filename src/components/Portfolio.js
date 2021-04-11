@@ -5,7 +5,7 @@ import MyPortfolioImages from "./Projects";
 
 const PortfolioContainer = styled.div`
   background-color: rgb(169, 175, 255);
-  height: 100vh;
+  min-height: -webkit-fill-available;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -21,6 +21,10 @@ const PortfolioContainer = styled.div`
     border-width: 15px 15px 15px 0;
     border-color: transparent #fff transparent transparent;
   }
+
+  .fp-responsive .fp-tableCell{
+    height: auto !important;
+  }
   img {
     width: auto;
     height: 80vh;
@@ -34,13 +38,6 @@ const PortfolioContainer = styled.div`
     color: white;
   }
 
-  @media (max-width: 1024px) {
-    img {
-      max-width: 90%;
-      height: auto;
-    }
-  }
-
   @media (max-width: 768px) {
     img {
       max-width: 80%;
@@ -50,10 +47,6 @@ const PortfolioContainer = styled.div`
 `;
 class Portfolio extends Component {
   render() {
-    if (MyPortfolioImages.title === "gbgcollage") {
-      return <h1>hello</h1>;
-    }
-
     return MyPortfolioImages.map((MyPortfolioImages) => {
       return (
         <div key={MyPortfolioImages.id} className="fullpagewrapper">

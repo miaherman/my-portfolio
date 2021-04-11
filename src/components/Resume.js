@@ -6,9 +6,7 @@ import CoreWrapper from "../CSS/style";
 const ResumeContainer = styled.div`
   display: flex;
   justify-content: center;
-  position: relative;
-  height: 100vh;
-  width: 100%;
+  min-height: -webkit-fill-available;
 `;
 
 const ResumeInfo = styled.div`
@@ -16,8 +14,7 @@ const ResumeInfo = styled.div`
   flex-direction: column;
   background-color: white;
   text-align: center;
-  justify-content: space-space-around;
-  overflow: auto;
+  overflow: scroll;
   padding: 2%;
 
   @media (max-width: 768px) {
