@@ -11,6 +11,16 @@ const PortfolioContainer = styled.div`
   justify-content: center;
   align-items: center;
 
+  .fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent #fff;
+  }
+  .fp-controlArrow.fp-prev {
+    left: 15px;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #fff transparent transparent;
+  }
   img {
     width: auto;
     height: 80vh;
@@ -33,16 +43,15 @@ const PortfolioContainer = styled.div`
 
   @media (max-width: 768px) {
     img {
-      max-width: 90%;
+      max-width: 80%;
       height: auto;
     }
   }
 `;
 class Portfolio extends Component {
-  
   render() {
-    if(MyPortfolioImages.title === "gbgcollage" ) {
-      return (<h1>hello</h1>)
+    if (MyPortfolioImages.title === "gbgcollage") {
+      return <h1>hello</h1>;
     }
 
     return MyPortfolioImages.map((MyPortfolioImages) => {
@@ -65,7 +74,6 @@ class Portfolio extends Component {
           </PortfolioContainer>
         </div>
       );
-      
     });
   }
 }

@@ -54,7 +54,7 @@ const MyPortfolioImages = [
     demo: "https://www.postnord.se/om-oss/pressmeddelanden/2021/miljofragan-och-hyllning-till-goteborg-blir-motiv-pa-arets-forsta-frimarken#:~:text=Frim%C3%A4rksserien%20V%C3%A4rdefull%20Natur%20och%20G%C3%B6teborg,2021%20finns%20p%C3%A5%20PostNords%20hemsida.",
     work: "Info",
     github: "https://www.goteborg2021.com/frimarken/",
-    description: "As a part of this project, I also got the opportunity to have my illustration on a stamp! An incredible honor and very exciting.",
+    description: "As a part of this project, I also got the opportunity to have my illustration on a stamp. An incredible honor!",
   }
 ];
 
