@@ -22,12 +22,9 @@ const PortfolioContainer = styled.div`
     border-color: transparent #fff transparent transparent;
   }
 
-  .fp-responsive .fp-tableCell{
-    height: auto !important;
-  }
   img {
-    width: auto;
-    height: 80vh;
+    max-width: 60%;
+    max-height: 60%;
   }
 
   h3 {
@@ -38,12 +35,12 @@ const PortfolioContainer = styled.div`
     color: white;
   }
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     img {
       max-width: 80%;
-      height: auto;
     }
-  }
+  } */
+
 `;
 class Portfolio extends Component {
   render() {

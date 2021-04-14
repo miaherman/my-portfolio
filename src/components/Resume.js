@@ -14,7 +14,7 @@ const ResumeInfo = styled.div`
   flex-direction: column;
   background-color: white;
   text-align: center;
-  overflow: scroll;
+  min-height: -webkit-fill-available;
   padding: 2%;
 
   @media (max-width: 768px) {

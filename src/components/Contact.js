@@ -16,7 +16,7 @@ const StyledContactInfo = styled.div`
   //Grön blob
   img {
     height: auto;
-    max-width: 80vh;
+    max-width: 55vw;
   }
   @media (max-width: 768px) {
     background-color: #c7efcf;
@@ -42,17 +42,14 @@ const StyledProfile = styled.div`
   height: 100vh;
 
   img {
-    position: relative;
     width: auto;
-    height: 100%;
-    max-height: 25vh;
+    max-width: 25vw;
   }
   @media (max-width: 768px) {
     background-color: #fcb97d;
     height: 100vh;
     width: 100%;
   }
-
 `;
 
 const StyledText = styled.div`
