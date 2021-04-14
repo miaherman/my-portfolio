@@ -8,6 +8,7 @@ export const CoreWrapper = styled.div`
   align-items: center;
   background-image: url(${backgroundPattern});
   min-height: -webkit-fill-available;
+  height: 100%;
   width: auto;
   background-repeat: repeat;
   background-color: white;
